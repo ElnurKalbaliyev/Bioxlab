@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+
+}
+.d-flex{
+    display: flex;
+}
+.j-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.j-center{
+    justify-content: center;
+}
+.img-fluid{
+    width: 100%;
+}
+.list-unstyled{
+    list-style: none;
+}
+.decoration-none{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    padding: 30px 30px;
+   position: fixed;
+   width: 100%;
+   z-index: 5;
+}
+.header .logo img{
+    width: 220px;
+    height: 46px;
+}
+.menu{
+    margin-right: 200px;
+}
+.menu a{
+    padding: 0 20px;
+    font-size: 12px ;
+    color: #96929A;
+    font-weight: 700;
+}
+.menu a:hover{
+    color: #000;
+}
+.nav-call{
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: #fff;
+   
+}
+.nav-call span{
+    font-size: 13px;
+    font-weight:700 ;
+    color: #96929A;
+}
+.nav-call a{
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-call a:hover{
+    color:#10D4C2 ;
+}
+.nav-call img{
+    padding: 0 15px;
+}
+.welcome{
+    padding: 15rem 0;
+    position: relative;
+}
+.welcome .welcome-content{
+    width: 50%;
+}
+.welcome .welcome-img{
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+.welcome .welcome-img img{
+    width: 540px;
+    height: 700px;
+    border-radius: 0px 0px 362px 362px;
+} 
+.welcome .welcome-content h1{
+    font-size:3.8em;
+    text-transform: capitalize;
+    line-height: 70px;
+    margin: 2rem 0;
+    color: #171151;
+}
+.welcome .welcome-content span{
+    color: #0e63ff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.welcome .welcome-content p{
+color: #888;
+font-weight: 600;
+font-size: 18px;
+margin-bottom:45px ;
+line-height: 29px;
+width: 80%;
+}
+.welcome .welcome-content .welcome-buttons a{
+    display: inline-block;
+    margin: 20px;
+    margin-left: 0;
+    background: #0E63FF;
+    padding:25px 45px ;
+    color: #fff;
+    border-radius: 5px;
+
+}
+.welcome .welcome-content .welcome-buttons .btn-app{
+    background: #10d0a1;
+    padding:25px 45px;
+}
+
+
